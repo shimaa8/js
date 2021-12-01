@@ -54,7 +54,7 @@ document.forms[0].onsubmit = function(e){
     if(flag)
     {
         var xhr = new XMLHttpRequest();
-        xhr.open("GET","Data/Users.jsonp",true)
+        xhr.open("GET","Data/Users.json",true)
         xhr.onreadystatechange = function(){
             if(xhr.readyState == 4 && xhr.status == 200)
             {
